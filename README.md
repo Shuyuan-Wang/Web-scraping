@@ -1,6 +1,8 @@
 # Web-scraping
 My web scraping codes (personal use)
 
+Related packages: `requests`, `bs4`, `re`, `pandas`, `selenium`
+
 ## Amap
 ### Scrape art school information using Amap API
 
@@ -8,4 +10,10 @@ Using the Amap API key I applied at https://lbs.amap.com/, I scraped the art sch
 
 ### Translate from Chinese to English
 
-Using googletrans package, the information of art school is translated to English.
+Using `googletrans` package, the information of art school was translated to English.
+
+
+## Artand
+
+Using `selenium` realized the log in and automatic "load more" process to get HTML of the website.
+
